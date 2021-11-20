@@ -101,3 +101,11 @@ plot.ts(average.ts, main = "Wartość ETH",xlab = "Dni",ylab = "USD", col = "bla
 curve(c[1]*c[2]^x, add = T, col = "blue")
 curve(predict(model_2, data.frame(wektor=x)), add = T, col = "green") 
 curve(predict(model_3, data.frame(wektor=x)), add = T, col = "red")
+
+# Po dniu 2018-01-14 wartość ETH zaczęła drasycznie spadać 
+# (co możemy zaobserwować na wykresie) czego przyczyną była
+# chęć regulacji rynku kryptowalut przez rządy wielu krajów w tym USA.
+# Warto zauważyć, że każda z linii przetnie czarną linię, która reprezentuje
+# realną wartość ETH.
+# Modele te będą jednak mało użyteczne w skali długoterminowej ponieważ trudno
+# przewidzeć wpływ efektów losowych na kurs kryptowalut.
