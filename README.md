@@ -1,5 +1,8 @@
 # Analiza-danych-regresje
 
+Projekt nr.1 na zaliczenie Analizy danych <br />
+Uniwersytet Gdański - Matematyka <br />
+
 Wykresy:
 
 1. Wartości ETH w dniach od 2015-08-06 do 2018-08-31:
